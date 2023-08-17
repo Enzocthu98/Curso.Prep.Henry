@@ -2,19 +2,55 @@ h1 {
     color:#d63031;
 }
 
+/* h3 {
+    position: absolute;
+    left: 32%;
+    top: 3.6%;
+} */
+
 img {
-    width: 400px
+    width: 300px;
 }
 
 #thirdDiv {
-    height: 600px;
-    width: 500px;
+    height: 500px;
+    width: 600px;
     background-color:aqua;
-    padding: 50px;
+    padding: 10px;
     border: 1px solid black;
+    margin: auto;
+    text-align: center;
 }
 
 #spanId{
     font-size:18px;
     margin: 50px;
+    /* visibility: hidden; */
+}
+
+body {
+    background-image:url('https://elcomodorense.net/wp-content/uploads/2021/05/bandera-nacional.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divClass {
+    max-width: 600px;
+    margin: 0 auto;
+    align-self: flex-start;
+}
+
+
+#main {
+    max-width: 600px;
+    /*margin: auto; */
+    text-align: center;
+}
+
+#no-me-la-conteiner {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* position: relative; */
 }

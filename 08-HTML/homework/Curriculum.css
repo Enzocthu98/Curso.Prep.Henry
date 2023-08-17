@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom:10px;
+}
+
+li {
+    list-style: none;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 233, 174);
+}
+
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cv {
+    /* border: 5px solid blue; */
+    width: 300px;
+    margin: 20px;
+}
+
+.cv img{
+    width: 100%;
+    border-radius: 50%;
+}
